@@ -1,0 +1,157 @@
+/* text colors */
+
+/* body color  #434455;
+headers color #2E2F42;
+accent #404BBF;
+links #4D5AE5;
+white #FFFFFF;
+light mode backgrounds #F4F4FD;
+
+*/
+
+:root {
+  --primary-text-color: #434455;
+  --headers-color: #2e2f42;
+  --accent-color: #404bbf;
+  --links-color: #4d5ae5;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+/* Site nav */
+
+.logo {
+  color: #2e2f42;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.logo-accent {
+  color: var(--links-color);
+}
+
+.site-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.auth-nav {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Headers links colors*/
+
+.site-nav .links {
+  color: var(--headers-color);
+}
+
+.auth-nav .links {
+  color: var(--primary-text-color);
+  font-style: normal;
+}
+
+.button {
+  color: #ffffff;
+  background-color: var(--links-color);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: var(--headers-color);
+}
+
+.page-footer .logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* hover/focus */
+
+.links:hover,
+.links:focus {
+  color: var(--accent-color);
+}
+
+.button.links:hover,
+.button.links:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--headers-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Our team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+/* H2 */
+
+.second-header {
+  color: var(--headers-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+/* H3 */
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+/* P */
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
