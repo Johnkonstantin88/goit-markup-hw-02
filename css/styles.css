@@ -35,7 +35,6 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  font-family: Raleway;
   font-size: 18px;
   line-height: 1.17;
 }
@@ -147,8 +146,6 @@ body {
 
 .footer-text {
   color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* hover/focus */
