@@ -20,7 +20,6 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.02em;
 }
 
 .list {
@@ -28,30 +27,21 @@ body {
   text-decoration: none;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-}
-
 /* Site nav */
 
 .logo {
-  color: #2e2f42;
+  color: var(--links-color);
   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
   font-family: Raleway;
   font-size: 18px;
   line-height: 1.17;
 }
 
-.logo-accent {
-  color: var(--links-color);
+.logo-span {
+  color: var(--headers-color);
 }
 
 .site-nav {
@@ -80,7 +70,63 @@ body {
   color: #ffffff;
   background-color: var(--links-color);
   font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+/* hero */
+
+.hero {
+  background-color: var(--headers-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* H2 */
+
+.title {
+  color: var(--headers-color);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* H3 */
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--headers-color);
+}
+
+/* P */
+
+.section-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Our team */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.list-item {
+  background-color: #ffffff;
 }
 
 /* Footer */
@@ -89,7 +135,7 @@ body {
   background-color: var(--headers-color);
 }
 
-.page-footer .logo {
+.page-footer .logo-span {
   color: #f4f4fd;
 }
 
@@ -110,48 +156,4 @@ body {
 .button.links:focus {
   color: #ffffff;
   background-color: var(--accent-color);
-}
-
-/* hero */
-
-.hero {
-  background-color: var(--headers-color);
-}
-
-.hero-title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  text-align: center;
-  color: #ffffff;
-}
-
-/* Our team */
-
-.team-section {
-  background-color: #f4f4fd;
-}
-
-/* H2 */
-
-.second-header {
-  color: var(--headers-color);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-}
-
-/* H3 */
-
-.subtitle {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-/* P */
-
-.section-description {
-  font-size: 16px;
-  line-height: 1.5;
 }
