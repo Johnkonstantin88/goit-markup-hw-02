@@ -31,7 +31,7 @@ body {
 
 .logo {
   color: var(--links-color);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -53,6 +53,11 @@ body {
 .auth-nav {
   font-size: 16px;
   line-height: 1.5;
+  font-style: normal;
+}
+
+.list-item {
+  letter-spacing: 0.02em;
 }
 
 /* Headers links colors*/
@@ -63,7 +68,6 @@ body {
 
 .auth-nav .links {
   color: var(--primary-text-color);
-  font-style: normal;
 }
 
 .button {
@@ -86,6 +90,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
@@ -117,6 +122,7 @@ body {
 .section-description {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Our team */
@@ -125,7 +131,7 @@ body {
   background-color: #f4f4fd;
 }
 
-.list-item {
+.team-list-item {
   background-color: #ffffff;
 }
 
